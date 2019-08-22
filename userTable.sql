@@ -1,4 +1,4 @@
-drop table user;
+drop table user if exists;
 
 create table user(
 	userId varchar(20) not null primary key,
