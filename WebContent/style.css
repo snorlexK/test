@@ -1,0 +1,196 @@
+body {
+	font-family:'함초롬돋움';
+}
+ul {
+	list-style:none;
+	line-height:300%;
+}
+li {
+	font-size:12px;
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+a:hover {
+	color:gray;
+}
+img {
+	height:300px;
+	margin:3%;
+}
+input[type=button] {
+	background-color:black;
+	color:white;
+	border:none;
+	border-radius:7px;
+	padding:10px 15px;
+	font-family:'함초롬돋움';
+}
+input[type=button]:hover {
+	background-color:#565b63;
+}
+input[type=text] {
+	width:200px;
+	font-family:'함초롬돋움';
+}
+input[type=password] {
+	width:200px;
+	font-family:'함초롬돋움';
+}
+input[type=email] {
+	width:200px;
+	font-family:'함초롬돋움';
+}
+.menuTitle {
+	padding:10%;
+	background-color:black;
+	font-weight:bold;
+}
+.image {
+    display:inline;
+}
+.descTd {
+	text-align:right;
+}
+.submitTd {
+	text-align:right;
+}
+.titleTd {
+	font-size:24px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.necessaryTd {
+	font-size:20px;
+	font-weight:bold;
+}
+#longText {
+	width:300px;
+}
+#phoneText {
+	width:50px;
+}
+#banner {
+	height:15%;
+	width:100%;
+	background-image:url('./img/img01.jpg');
+ 	background-size:cover;
+    background-position:center;
+    color:white;
+    text-shadow:2px 1px black;
+}
+#pageName {
+	padding: 5% 2%;
+	text-align:right;
+	font-size:36px;
+	font-family:'함초롬바탕';
+}
+#leftBox {
+	float:left;
+	width:15%;
+	height:900px;
+	background-color:#565b63;
+	color:white;
+}
+#contentBox {
+	float:left;
+	width:85%;
+	height:900px;
+}
+#textBox {
+	text-align:center;
+	width:94%;
+	margin:3%;
+}
+#imageBox {
+	width:94%;
+	margin:3%;
+	text-align:center;
+}
+#copyrightBox {
+	float:right;
+	padding:3%;
+	text-align:right;
+	color:gray;
+}
+#contactBox {
+	float:right;
+	padding:3%;
+	text-align:right;
+	color:gray;
+}
+#signInBox {
+	width:94%;
+	margin:3%;
+}
+#signInTbl {
+	border:2px solid #565b63;
+	border-radius:15px;
+	margin:20%;
+	padding:10%;
+}
+#signInTbl td {
+	line-height:300%;
+}
+#userInfoBox {
+	width:94%;
+	margin:3% 10%;
+	padding:5% 0%;
+	text-align:center;	
+}
+#userInfoTbl {
+	border:1px solid #565b63;
+	border-radius:5px;
+	margin:5%;
+	padding:5%;
+	line-height:200%;
+}
+#signUpBox {
+	width:94%;
+	margin:3%;
+}
+#signUpTbl {
+	border:2px solid #565b63;
+	border-radius:15px;
+	margin:5%;
+	padding:5%;
+}
+#signUpTbl td {
+	line-height:200%;
+}
+#findIdBox {
+	width:94%;
+	margin:3%;
+}
+#findIdTbl {
+	border:2px solid #565b63;
+	border-radius:15px;
+	margin:5%;
+	padding:5% 10%;
+}
+#findIdTbl td {
+	line-height:300%;
+}
+#findPwdBox {
+	width:94%;
+	margin:3%;
+}
+#findPwdTbl {
+	border:2px solid #565b63;
+	border-radius:15px;
+	margin:5%;
+	padding:5% 7%;
+}
+#findPwdTbl td {
+	line-height:200%;
+}
+#foundIdP {
+	margin:25%;
+	text-align:center;
+}
+#foundPwdQP {
+	margin:25% 15%;
+	text-align:center;
+	font-size:24px;
+}
